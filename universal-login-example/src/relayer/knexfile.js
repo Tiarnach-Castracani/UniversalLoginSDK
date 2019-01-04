@@ -6,7 +6,7 @@ export default {
   development: {
     client: 'postgresql',
     connection: {
-      database: 'universal-login-relayer-development',
+      database: 'universal_login_relayer_development',
       user:     'postgres',
       password: 'postgres'
     },
@@ -19,7 +19,7 @@ export default {
   test: {
     client: 'postgresql',
     connection: {
-      database: 'universal-login-relayer-test',
+      database: 'universal_login_relayer_test',
       user:     'postgres',
       password: 'postgres'
     },
